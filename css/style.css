@@ -1,6 +1,5 @@
 @media (max-width: 960px) {
     body {
-        overflow-x:hidden;
     }
 
     main.container {
@@ -10,10 +9,13 @@
 
     section {
         width:100%;
+        margin:0px;
     }
 
     aside {
-        width:99%;
+        width:100%;
+        margin:0px;
+        padding:0px;
     }
     
     header.container {
@@ -27,7 +29,7 @@
     }
 
     section {
-        flex-basis:80%;
+        flex-basis:93%;
     }
 }
 
@@ -98,10 +100,10 @@ section h2 {
     border-radius:15px;
     text-align:center;
     font-size:1.4rem;
+    margin:15px;
 }
 
 section {
-    padding:15px;
     flex-basis:70%;
     background:#458088;
     display:flex;
@@ -114,7 +116,8 @@ section p {
     text-align:left;
     font-family:open sans;
     font-size:1rem;
-    padding-left:10px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 section img {
@@ -128,7 +131,6 @@ aside {
     order:2;
     flex-basis:30%;
     background:#fff;
-    padding:20px;
     font-family:open sans;
     color:#333;
     text-align:justify;
@@ -145,5 +147,10 @@ aside h2 {
     border-radius:15px;
     font-size: 1.4rem;
     text-align:center;
+    margin:15px;
+}
+
+aside p {
+    padding:5px 15px 5px 15px;
 }
 
